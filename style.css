@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to top, black, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 5px black;
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+    float: top;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.about_me {
+    text-align: center;
+    font-size: larger;
+}
+
+a:link{
+    color: blue;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: red;
+}
+
+button {
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: black;
+    border-color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+    color: white;
+    box-shadow: 3px 3px 10px black;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 3px 3px 10px;
+    transform: scale(1.2);
+}
+
+button:active {
+    background-color: gray;
+    color: white;
+    transform: scale(0.8);
+}
+
+.fa-facebook {
+    color: white;
+    float: right;
+}
+
+.fa-x-twitter {
+    color: white;
+    float: right;
+}
+
+.fa-reddit-alien {
+    color: white;
+    float: right;
+}
+
+div {
+    animation-name: SlideIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+@keyframes SlideIn {
+    from{margin-bottom: 50%; opacity: 50%;}
+    to{margin-bottom: 0%; opacity: 100%;}
+}
